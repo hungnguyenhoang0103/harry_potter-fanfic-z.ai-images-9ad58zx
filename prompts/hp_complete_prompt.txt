@@ -1,0 +1,233 @@
+# HARRY POTTER 21+ FANFIC — STORY-SPECIFIC SUPPLEMENT
+
+> Pair file này với `generic_complete_prompt.txt`. Generic = rules chung. File này = HP-specific (characters, canon, outline).
+
+---
+
+## PHẦN A: PROJECT INFO
+
+- **Tên project**: Harry Potter 21+ Fanfic
+- **Nam chính**: Harry Potter (16 tuổi, ngầm hiểu 18+), năm đầu tiên Hogwarts
+- **Bối cảnh**: Harry nhận thư mời Hogwarts, nhập học trễ 5 năm so với nguyên tác
+- **Tên gốc**: LUÔN dùng tên gốc theo nguyên tác (Harry Potter, KHÔNG "Hari Pơ-tơ")
+
+---
+
+## PHẦN B: CHARACTER BIBLE (35 nhân vật nữ + Harry)
+
+### Nam chính: Harry Potter
+- 16 tuổi (ngầm 18+), năm đầu Hogwarts
+- Half-blood, sẹo hình tia chớp (kết nối Voldemort)
+- Đũa: Holly 11 inch, lông phượng hoàng Fawkes (sinh đôi đũa Voldemort)
+- Patronus: Stag (hươu đực) — dạng Animagus của cha James
+- Parselmouth (do soul fragment từ Voldemort)
+- Thân phận: Anh hùng Sống Sót + Đứa Trẻ Bị Bỏ Rơi
+- Tính cách: Trầm tĩnh, kiên cường, ít nói, khát khát tình mẫu tử (do mồ côi)
+- Background: Sống tại Dursley 10 năm (bạo hành tinh thần), phát hiện là phù thủy năm 16
+
+### GIA TỘC POTTER (3)
+1. **Lily Potter** (37, mẹ ruột, hồi sinh qua huyết thuật) — Tham chiếu: IU (Lee Jieun). Tóc đỏ hạt dẻ, mắt xanh lục, áo lụa ivory. Arc mẹ con: dục vọng huyết thuật bùng nổ.
+2. **Euphemia Potter** (52, bà nội) — Tham chiếu: Kim Taehee. Tóc bạc-da-bồ kết, mắt nâu đen, váy nhung đen. Arc gia tộc Potter, trao di sản.
+3. **Petunia Dursley** (41, dì Harry, chị Lily) — Tham chiếu: Jeon So Min. Tóc nâu đen, mắt xanh nhạt, blouse lụa. Arc gia đình Muggle.
+
+### GIA TỘC WEASLEY (6)
+4. **Molly Weasley** (39, mẹ Ron/Ginny) — Tham chiếu: Kim Sung-ryung. Tóc nâu hạt dẻ, áo len cam. Arc mẹ vợ.
+5. **Ginny Weasley** (16, em Ron) — Tham chiếu: Kim Yoojung. Tóc nâu đỏ, crop top + short jeans. Arc tình đầu tuổi teen.
+6. **Victoire Weasley** (17, con Bill/Fleur, 1/4 Veela) — Tham chiếu: Tzuyu TWICE. Tóc bạch kim, váy bodycon. Arc Veela.
+7. **Fleur Delacour** (23, vợ Bill, 1/4 Veela) — Tham chiếu: Jang Won-young IVE. Tóc bạch kim, váy silk. Arc chị dâu Pháp.
+8. **Audrey Weasley** (25, vợ Percy) — Tham chiếu: Han Hyo-joo. Tóc nâu, sơ mi trắng + quần ống rộng. Arc chị dâu trí thức.
+9. **Gabrielle Delacour** (16, em Fleur, 1/8 Veela) — Tham chiếu: Mina TWICE. Tóc bạch kim, váy silk hồng. Arc Veela trẻ.
+
+### GIA TỘC BLACK (5)
+10. **Walburga Black** (53, bà nội nuôi qua Sirius) — Tham chiếu: Song Hyekyo. Tóc bạc, váy nhung đen. Arc gia tộc Black.
+11. **Narcissa Malfoy** (39, mẹ Draco) — Tham chiếu: Jun Jihyun. Tóc bạch kim, váy nhung xanh đen. Arc gia tộc Malfoy.
+12. **Andromeda Tonks** (38, mẹ Nymphadora) — Tham chiếu: Lee Sungkyung. Tóc nâu sáng, áo len cashmere. Arc gia tộc Tonks.
+13. **Bellatrix Lestrange** (39, Death Eater) — Tham chiếu: Han Sohee. Tóc đen rối, váy nhung đen. Arc Hắc ám, nguy hiểm.
+14. **Nymphadora Tonks** (28, Auror) — Tham chiếu: Lee Sun-bin. Tóc nâu, hoodie + cargo. Arc Auror, Metamorphmagus.
+
+### GIA TỘC LONGBOTTOM (2)
+15. **Augusta Longbottom** (54, bà nội Neville) — Tham chiếu: Kim Hyesoo. Tóc bạc, váy tweed. Arc gia tộc Longbottom.
+16. **Alice Longbottom** (35, mẹ Neville) — Tham chiếu: Park Shinhye. Tóc nâu, sơ mi trắng. Arc hồi phục.
+
+### GIA TỘC MALFOY (1)
+17. **Astoria Malfoy** (21, vợ Draco) — Tham chiếu: Kim Goeun. Tóc nâu sáng, váy silk pastel. Arc bí mật, bệnh máu Greengrass.
+
+### GIA TỘC DIGGORY (2)
+18. **Cordelia Diggory** (40, mẹ Cedric) — Tham chiếu: Son Yejin. Tóc nâu, váy tweed beige. Arc gia tộc Diggory.
+19. **Cedrica Diggory** (18, chị Cedric) — Tham chiếu: Suzy. Tóc nâu sáng, sơ mi Hufflepuff. Arc học trưởng.
+
+### KHÁC GIA TỘC (3)
+20. **Daphne Greengrass** (16, Slytherin) — Tham chiếu: Karina aespa. Tóc đen, sơ mi Slytherin. Arc bạn cùng lớp.
+21. **Honoria Dumbledore** (55, cô Dumbledore) — Tham chiếu: Kim Hyunjoo. Tóc bạc đỏ, váy linen tím. Arc bí mật Dumbledore.
+22. **Serena Zabini** (38, mẹ Blaise) — Tham chiếu: Yang Mi. Tóc đen, váy dạ hội Versace. Arc tài phiệt.
+
+### NHÂN VẬT KHÁC (13)
+23. **Hermione Granger** (16, bạn thân Harry) — Tham chiếu: Song Ji-hyo. Tóc nâu đen thẳng, sơ mi Gryffindor. Arc bạn thân.
+24. **Luna Lovegood** (16, Ravenclaw) — Tham chiếu: Chae Soobin. Tóc bạch kim, hoa tai cà rốt. Arc kỳ quặc.
+25. **Cho Chang** (17, Ravenclaw) — Tham chiếu: Park Boyoung. Tóc đen, sơ mi Ravenclaw. Arc tình cảm.
+26. **Padma Patil** (16, Ravenclaw) — Tham chiếu: Zhao Lusi. Tóc đen, sari đỏ-vàng. Arc Ấn Độ.
+27. **Parvati Patil** (16, Gryffindor) — Tham chiếu: Dilireba. Tóc đen, sari xanh ngọc. Arc song sinh.
+28. **Penelope Clearwater** (22, cựu Head Girl) — Tham chiếu: Kim Jiwon. Tóc nâu, suit xám. Arc tiền bối.
+29. **Olivia Selwyn** (21, trợ giảng Độc dược) — Tham chiếu: Irene RV. Tóc đen, búi cao. Arc trợ giảng.
+30. **Minerva McGonagall** (50, giáo viên Biến hình) — Tham chiếu: Lee Youngae. Tóc đen bạc, áo chùng xanh. Arc giáo viên.
+31. **Aurora Sinistra** (32, giáo viên Thiên văn) — Tham chiếu: Liu Yifei. Tóc đen, áo chùng xanh đêm. Arc tháp thiên văn.
+32. **Madam Rosmerta** (30, chủ quán) — Tham chiếu: Han Jimin. Tóc nâu, blouse lụa. Arc quán trọ.
+33. **Rita Skeeter** (41, ký giả) — Tham chiếu: Park Si-yeon. Tóc vàng, jacket magenta. Arc ký giả.
+34. **Madam Malkin** (39, thợ may) — Tham chiếu: Oh Na-ra. Tóc nâu, sơ mi trắng. Arc tiệm may.
+35. **Rolanda Hooch** (35, giáo viên Quidditch) — Tham chiếu: Seulgi RV. Tóc bạch kim-cam, jacket da. Arc Quidditch.
+
+---
+
+## PHẦN C: CANON REFERENCE (Key events condensed)
+
+### Book 1 (1991-1992): Sorcerer's Stone
+- Halloween 1981: Voldemort giết James & Lily, Harry sống sót (sẹo)
+- Hagrid giao Harry cho Dursley → 10 năm bạo hành
+- 24/7/1991: Hagrid đưa thư mời Hogwarts ("Yer a wizard, Harry")
+- Diagon Alley: Gringotts, Ollivanders (đũa sinh đôi Voldemort)
+- Platform 9¾: Gặp Ron, Hermione
+- Sorting: Gryffindor (Harry begged "not Slytherin")
+- Halloween: Troll → friendship Harry-Ron-Hermione
+- Quidditch: Harry Seeker trẻ nhất, Snape jinx chổi
+- Christmas: Invisibility Cloak (từ Dumbledore/James)
+- Mirror of Erised: Harry thấy父母
+- Through Trapdoor: Fluffy, Devil's Snare, Chess, Potions
+- Đối đầu Quirrell/Voldemort: huyết thuật Lily bảo vệ Harry
+- Dumbledore giải thích: sẹo = kết nối Voldemort (Horcrux hint)
+
+### Book 2 (1992-1993): Chamber of Secrets
+- Dobby warning → Ford Anglia rescue → Burrow
+- Mudblood message → Mrs. Norris petrified
+- Duelling Club: Harry Parselmouth reveal
+- Tom Riddle's Diary (Horcrux #1)
+- Hermione petrified
+- Chamber of Secrets: basilisk, Fawkes, Gryffindor's Sword
+- Harry giết basilisk, đám diary → Ginny saved
+- Dobby freed (sock trick)
+
+### Book 3 (1993-1994): Prisoner of Azkaban
+- Sirius Black escape → Dementor on train → Lupin
+- Patronus lessons → Firebolt (from Sirius)
+- Trelawney's prophecy (Voldemort's servant returning)
+- Shrieking Shack: Sirius innocent, Pettigrew = Scabbers
+- Pettigrew escapes → Lupin werewolf → Dementor attack
+- Time-Turner: cứu Buckbeak, Harry tự đuổi Dementor (stag Patronus = Prongs)
+- Sirius = godfather, escaped on Buckbeak
+
+### Book 4 (1994-1995): Goblet of Fire
+- Quidditch World Cup: Death Eaters attack, Dark Mark
+- Triwizard Tournament: Harry selected (4th champion, trap)
+- Dragons (task 1) → Yule Ball → Lake/Gillyweed (task 2)
+- Pensieve: Crouch memory, Longbottoms tortured
+- Maze (task 3) → Portkey → Graveyard
+- Cedric killed → Voldemort hồi sinh (blood ritual)
+- Prior Incantato: twin wands, echoes of James/Lily/Cedric
+- Moody = Barty Crouch Jr. (Polyjuice) → Dementor kiss
+- Dumbledore: "Voldemort has returned"
+
+### Book 5 (1995-1996): Order of the Phoenix
+- Dementor attack Little Whinging → Ministry hearing
+- 12 Grimmauld Place: Order HQ, Sirius
+- Umbridge: blood quill detentions
+- Dumbledore's Army (DA): Harry leader, Room of Requirement
+- Mr Weasley attacked by Nagini (Harry's vision)
+- Occlumency lessons with Snape → Snape's worst memory
+- Vision: Sirius captured → Department of Mysteries
+- Battle: Sirius killed by Bellatrix (Veil)
+- Prophecy revealed: "Either must die at the hand of the other"
+
+### Book 6 (1996-1997): Half-Blood Prince
+- Spinner's End: Unbreakable Vow (Snape protects Draco)
+- Slughorn recruited → Half-Blood Prince's potions book
+- Pensieve lessons: Voldemort's past, Horcruxes (7 total)
+- Draco's task: kill Dumbledore (desperate, failing)
+- Katie Bell cursed necklace
+- Cave: fake locket (R.A.B. = Regulus Black)
+- Astronomy Tower: Snape kills Dumbledore (planned)
+- Snape = Half-Blood Prince
+- Harry break up Ginny (protect) → quyết định hunt Horcruxes
+
+### Book 7 (1997-1998): Deathly Hallows
+- Seven Potters → Hedwig & Moody die
+- Bill/Fleur wedding → Ministry falls
+- Grimmauld: Doe Patronus (Snape) → Sword of Gryffindor
+- Ron leaves (locket affect) → returns → destroys locket
+- Godric's Hollow: Nagini attack
+- Malfoy Manor: Hermione tortured, Dobby dies
+- Gringotts: Hufflepuff's cup, dragon escape
+- Room of Requirement: diadem destroyed (Fiendfyre)
+- Snape killed → memories: loved Lily, spy for Dumbledore
+- Harry = accidental Horcrux → walks to death
+- Resurrection Stone: James, Lily, Sirius, Lupin echoes
+- Voldemort cast Avada Kedavra → Harry dies → limbo (Dumbledore) → resurrects
+- Final battle: Neville kills Nagini, Molly kills Bellatrix
+- Harry vs Voldemort: Elder Wand allegiance → Voldemort dies
+
+### Key Foreshadowing
+1. Sẹo Harry (B1) → accidental Horcrux (B7)
+2. Tom Riddle diary (B2) → Horcrux explained (B6)
+3. Pettigrew escapes (B3) → helps Voldemort (B4)
+4. Twin wands (B4) → Elder Wand (B7)
+5. Snape kills Dumbledore (B6) → planned, loved Lily (B7)
+
+---
+
+## PHẦN D: CANON REMINDERS (nhớ khi viết)
+
+1. **Harry nhận thư Hogwarts** = Book 1 event. Đừng bỏ qua.
+2. **Sẹo Harry** = kết nối Voldemort. Đôi khi đau khi Voldemort active.
+3. **Lily hy sinh** = huyết thuật bảo mẫu. Quan trọng cho arc mẹ-con.
+4. **Snape ghét Harry** vì nhớ James bully + yêu Lily.
+5. **Sirius = godfather** — tình cảm phụ tử sâu.
+6. **Draco = đối thủ** từ ngày đầu trên tàu.
+7. **Hermione = Muggle-born** — thông minh, cầu toàn.
+8. **Ron = bạn thân** — insecure, loyal, comic relief.
+9. **Dumbledore = mentor** — mysterious, wise.
+10. **Voldemort** = sẽ hồi sinh (Book 4), nhưng Book 1-3 là threat ngầm.
+
+---
+
+## PHẦN E: STORY STRUCTURE
+
+### ARC 1: Khởi Đầu Hogwarts
+- Time: Hè năm Harry 16 tuổi
+- Location: Godric's Hollow · Diagon Alley · Hogwarts Express · Hogwarts
+- Main characters: Harry, Lily, Euphemia, Hermione
+
+**Chương 1: Lá Thư Từ Hogwarts**
+- Phần 1: Bối cảnh & tâm lý — Harry tại Privet Drive, nhận thư, Petunia phản ứng
+- Phần 2: Diagon Alley & gặp Lily — Harry gặp mẹ ruột (hồi sinh), Madam Malkin
+- Phần 3: Cảnh sex đầu tiên với Lily — dục vọng huyết thuật
+- Phần 4: Aftercare & chuyển tiếp — Euphemia xuất hiện
+
+**Chương 2: Potter Manor**
+- Phần 1: Bà nội kiểm tra — Euphemia trao di sản
+- Phần 2: Cảnh sex với Euphemia — arc gia tộc Potter
+- Phần 3: Lily tham gia — cảnh some mẹ-con
+
+**Chương 3: Tàu Hogwarts & Hermione**
+- Phần 1: Tàu Express — Harry gặp Hermione
+- Phần 2: Foreplay trên tàu
+- Phần 3: Cảnh sex với Hermione — lần đầu tuổi teen
+
+### ARC 2: Weasley & Burrow (chưa chi tiết)
+- Time: Cuối hè trước Hogwarts
+- Location: The Burrow · Quidditch World Cup
+- Characters: Molly, Ginny, Fleur, Victoire
+
+---
+
+## PHẦN F: HP-SPECIFIC RESTRICTIONS (thêm vào generic)
+
+### Context Limits (HP-specific)
+1. "sex tại Hogwarts classroom" — tối đa 2/arc
+2. "Patronus description" — tối đa 1/arc
+
+### Soft Guidance (HP-specific)
+1. Harry 16 tuổi nhưng ngầm hiểu 18+ — miêu tả body trưởng thành
+2. Sẹo Harry là kết nối tâm linh với Voldemort — không quên
+3. Huyết thuật Lily = bảo vệ Harry, cũng là nguồn dục vọng mẹ-con
+
+---
+
+*HP Story-Specific Supplement v1.0 — Aug 2026. Pair with generic_complete_prompt.txt.*
