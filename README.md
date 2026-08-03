@@ -2,77 +2,81 @@
 
 Image hosting + prompt files for Harry Potter 21+ Fanfic.
 
+## After Server Rollback - RESTORE INSTRUCTIONS
+
+If the Z.ai server rolled back and you lost local files:
+
+### Step 1: Download restore script (no PAT needed)
+
+    curl -o /home/z/my-project/hp_project_restore.py https://raw.githubusercontent.com/hungnguyenhoang0103/harry_potter-fanfic-z.ai-images-9ad58zx/staging/hp_project_restore.py
+
+### Step 2: List available backups on GitHub
+
+    python3 /home/z/my-project/hp_project_restore.py list-github
+
+### Step 3: Download + restore (replace TIMESTAMP)
+
+    python3 /home/z/my-project/hp_project_restore.py restore-timestamp TIMESTAMP
+
+### Step 4: Create new GitHub PAT (if needed)
+
+1. Go to https://github.com/settings/personal-access-tokens/new
+2. Fine-grained token for this repo, "Contents: Read and write"
+3. Save:
+
+    echo "github_pat_xxx" > /home/z/my-project/scripts/.github_token
+
+### Step 5: Verify
+
+    ls /home/z/my-project/download/*.html
+    ls /home/z/my-project/scripts/agents/*.py
+
+### Step 6: Create new backup
+
+    python3 /home/z/my-project/scripts/agents/backup_agent.py create
+
+---
+
 ## Structure
 
-```
-characters/              Character image folders (35 characters)
-  lily_potter/            Images for Lily Potter
-  hermione_granger/       Images for Hermione Granger
-  ...                     (35 folders total)
-
-prompts/                  Writing prompt files (for AI chat)
-  generic_complete_prompt.txt   Generic 21+ writing guide (reusable for any story)
-  hp_complete_prompt.txt        HP-specific supplement (characters, canon, outline)
-  pronoun_styles.md             11 pronoun styles (A-K) + Mix
-
-README.md                 This file
-.gitignore                Git ignore rules
-```
+    hp_project_restore.py     Standalone restore script (survives rollback)
+    characters/               Character image folders (35 characters)
+    prompts/                  Writing prompt files
+      generic_complete_prompt.txt   Generic 21+ writing guide (reusable)
+      hp_complete_prompt.txt        HP-specific supplement
+      pronoun_styles.md             11 pronoun styles (A-K) + Mix
+    README.md                 This file (includes restore instructions)
+    .gitignore
 
 ## Prompts
 
-### generic_complete_prompt.txt
-Generic 21+ novel writing guide. Self-contained. Reusable for ANY 21+ story.
-Contains: identity, structure, appearance, vocabulary, pronoun styles, restrictions, checklist.
-
-### hp_complete_prompt.txt
-Harry Potter story-specific supplement. Pair with generic prompt.
-Contains: 35 characters (with celebrity references), canon events (7 books condensed), story structure, HP-specific restrictions.
-
-### pronoun_styles.md
-11 pronoun styles (A-K) + Mix. Each style has 6 sections: main table, self-reference, intimate, context variations, HP examples, banned.
+- **generic_complete_prompt.txt** - 21+ writing guide, reusable for any story
+- **hp_complete_prompt.txt** - HP characters, canon events, story structure
+- **pronoun_styles.md** - 11 styles (A-K) + Mix, each with 6 sections
 
 ## Character Images
 
-Each character folder contains images named: `<image_key>_<NN>.<ext>`
-- `image_key` = celebrity reference (e.g., `iu`, `song_jihyo`)
-- `NN` = sequential number (01, 02, 03...)
-- Extensions: .jpg, .png, .webp
-
+Naming: `<image_key>_<NN>.<ext>`
 Example: `characters/hermione_granger/song_jihyo_15.jpg`
 
 ## Usage
 
-### For AI chat (DeepSeek, ChatGPT, Claude):
-1. Copy `prompts/generic_complete_prompt.txt` content
-2. Copy `prompts/hp_complete_prompt.txt` content
-3. Paste both into AI chat
-4. AI confirms understanding + asks user to choose pronoun style
+### AI chat (DeepSeek, ChatGPT, Claude):
+1. Copy generic_complete_prompt.txt + hp_complete_prompt.txt
+2. Paste into AI chat
+3. AI confirms + asks pronoun style
 
-### For Z.ai agents:
-- Image management: `python3 scripts/agents/image_agent.py`
-- Story tracking: `python3 scripts/agents/story_agent.py`
-- Canon reference: `python3 scripts/agents/canon_agent.py`
-- Restriction checking: `python3 scripts/agents/restriction_agent.py`
-- Prompt sync: `python3 scripts/agents/prompt_sync_agent.py sync`
+### Z.ai agents:
+- Image: `python3 scripts/agents/image_agent.py`
+- Story: `python3 scripts/agents/story_agent.py`
+- Canon: `python3 scripts/agents/canon_agent.py`
+- Restriction: `python3 scripts/agents/restriction_agent.py`
+- Backup: `python3 scripts/agents/backup_agent.py create`
 
-## Branch
-
-- `staging` - active development (uploads + edits)
-- `main` - stable (merge from staging when ready)
-
-## Notes
-
-- Public repo for image hosting + prompt files only
-- No sensitive data stored here
-- All images are reference photos for character visualization
-- Prompt files are writing guides for 21+ fanfiction
-
-## Config
-
-Project config: `project.json` (not in this repo, local only)
-GitHub config: `scripts/github_config.json` (local only)
-GitHub PAT: `scripts/.github_token` (local only, never commit)
+## Config (local only)
+- project.json
+- scripts/github_config.json
+- scripts/.github_token
 
 ---
-*Last updated: Aug 2, 2026*
+Last updated: Aug 2, 2026
